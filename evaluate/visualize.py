@@ -1,7 +1,7 @@
 import torch
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
-from ..cgan.models.generator import Generator
+from models.generator import Generator
 
 def visualize_synthetic_data(generator, labels_one_hot, z_dim=100, num_samples=1000):
     z = torch.randn(num_samples, z_dim)
