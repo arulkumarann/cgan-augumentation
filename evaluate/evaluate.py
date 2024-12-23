@@ -1,7 +1,7 @@
 import torch
-from ..cgan.models.generator import Generator
-from ..cgan.models.discriminator import Discriminator
-from ..cgan.data.prepare_data import load_cifar10
+from models.generator import Generator
+from models.discriminator import Discriminator
+from data.prepare_data import load_cifar10
 from sklearn.metrics import f1_score
 import numpy as np
 
